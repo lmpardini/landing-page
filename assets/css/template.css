@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    justify-content: center;
+    background-color: #EEE;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+.container{
+    align-items: center;
+    width: 940px;   
+}
+
+.header_area{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 160px;
+    margin: 10px;   
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding: 15px;
+    list-style: none;
+    color: #ABB3B7;
+    font-weight: bold;    
+}
+.donwload{
+    background-color: #6333D7;    
+    border-radius: 5px;
+}
+.donwload a{
+    color: #FFF;
+}
+nav a{
+    text-decoration: none;    
+}
+#geral{
+    
+    justify-content: center;
+}
+.banner{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url('../images/cameraback.jpg');
+    background-position: center;
+    background-size:cover;    
+}
+.area_banner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.product_promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #6333D7;
+    color: #C4AEEC;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.product_text h1{
+    color: #FFF;
+    font-size: 45px;
+    margin-top: 40px;
+}
+.product_text h2{
+    color: #FFF;
+    font-size: 18px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+.product_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #6333D7;
+    color: #C4AEEC;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.our_story{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #FFF;
+}
+.our_story_area{
+    display: flex;
+    flex-direction: column;
+    
+}
+.our_story_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    flex: 1;
+    margin-top: 40px;
+    
+}
+.our_story_section{
+    display: flex;
+    flex: 1;
+}
+.our_story_text h2{
+    color: #A06BDC;
+    margin-bottom: 20px;
+}
+.our_story_text h1{
+    color: #5D5151;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.our_story_text h3{
+    color: #ACA3A1;
+    text-align: center;
+    max-width: 450px;
+    margin-top: 25px;
+}
+.our_story_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    width: 280px;
+    height: 170px;
+    border: 1px solid #EEE;    
+    box-shadow: 1px -1px 1px #EEE;
+ }
+.section_item_icon img{    
+    width: 40px;
+}
+.section_item_icon,
+.section_item_title, 
+.section_item_text{
+    margin-left: 20px;
+}
+.section_item_title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #5D5151;
+}
+.section_item_text{
+    font-size: 14px;
+    color: #ACA3A1;
+}
+.features{
+    display: flex;
+    justify-content: center;
+}
+.features_area{
+    display: flex;
+    flex-direction: column;   
+}
+.features_area_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.features_area_left{
+    min-width: 530px;
+    flex: 1;
+}
+.features_area_rigth{
+    flex: 3;
+}
+.features_area_left_title{
+    color:#5D5151;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 250px;
+}
+.features_area_left_subtitle, 
+.features_area_left_description{
+    color: #ACA3A1;
+    max-width: 500px;
+    
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.features_area_rigth{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.features_area_rigth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 195px;
+    height: 150px;     
+    margin-bottom: 20px;    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    background-color: #2e2e2e;
+      
+}
+.footer_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.footer_copy{
+    border-top: 1px solid #5e5e5e;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    color: #5e5e5e;
+}
+.footer_copy a{
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+
+
+
