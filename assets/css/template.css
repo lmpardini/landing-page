@@ -239,7 +239,7 @@ footer{
     text-decoration: none;
     color: #5e5e5e;
 }
-@media only screen and (min-width: 768px) and (max-width:996px){
+@media only screen and (min-width: 767px) and (max-width:996px){
     .container{
         width: 768px;       
     }
@@ -279,9 +279,9 @@ footer{
         margin-left: 20px;
     }
 }
-@media only screen and (min-width: 425px) and (max-width:768px){
+@media only screen and (min-width: 320px) and (max-width:767px){
     .container{
-        width: auto;
+        width: 100%;
     }
     .header_area{
         flex-direction: column;
@@ -291,19 +291,22 @@ footer{
     }
     .banner{
         flex-direction: row;
-        height: 420px;
+        height: 480px;
+        padding: 20px;
     }
     .product_text h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .product_text h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .our_story{
         height: auto;
     }    
     .our_story_section{
         flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
     }
     .features_area_2{
         flex-direction: column;
@@ -313,12 +316,32 @@ footer{
         flex-direction: column;
     }
     .features_area_left{
-        width: auto;
+        min-width: 325px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .our_story_text h1{
         font-size: 25px;
     }
+    .our_story_text h3{
+        max-width: 320px;
+        font-size: 16px;
+    }
+    .features_area_left_subtitle, 
+    .features_area_left_description{
+        max-width: 320px;
 
+    }
+    .features_area_rigth_section{
+        width: 282px;
+    }
+    .footer_copy{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
